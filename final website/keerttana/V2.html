@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <nav>
+    <ul>
+    <li><a href="../leila/homepage.html" > Home </a></li>
+    <li><a href="../vicky/before/index.html" > Before </a></li>
+    <li><a href="V2.html" > During </a></li>
+    <li><a href="../vicky/after/after.html" > After </a></li>
+    </ul>
+  </nav>
+
+
+      <script type="text/javascript" src="V1- ongoing students webpageJS.js"></script>
+      <link rel="stylesheet" href="V2.css">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+ 
+<header>
+   <h1>Discover your life at Univeristy of Kent</h1> 
+</header>
+<a id="top" title="Back to top" href="#">&#10148;</a>
+<script>
+//Get the button
+var mybutton = document.getElementById("top");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 20 | document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+
+  
+  <button class="tablink" onclick="myFunction()" id="defaultOpen">Travel</button>
+  <a class="tablink" href="../damini/foodphoto (1).html">Food</a>
+  <button class="tablink" onclick="myFunction()">Shopping</button>
+  <button class="tablink" onclick="myFunction()">Amenities</button>
+
+</head>
+<body>
+
+
+<div class="content">
+  <h2>Discover UKC!</h2>
+  <p>A one stop guide to student life at Univeristy of Kent, for students by students.
+  </p>
+</div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2 class="title">Share some of your tips!</h2>
+    <p class="le">Let us hear some of your tips on surviving university.</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img id="happy" src="d1.jpg">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Course</label>
+          <input type="text" id="lname" name="lastname" placeholder="Course..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <a class="tablink" href="submit.html">Submit</a>
+      </form>
+    </div>
+  </div>
+</div>
+  
+
+  <footer>
+    <ul>
+    <li><a href="https://www.facebook.com/unionkent" > Kent Union Facebook </a></li>
+    <img src="logo.JPG" style="height:33.6px;width: 94px;vertical-align: middle;">
+    <li><a href="https://www.instagram.com/kentunion/" > Kent Union Instagram </a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>

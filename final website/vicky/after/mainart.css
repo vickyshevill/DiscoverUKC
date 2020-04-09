@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 99px 0px;
+}
+
+/* link at the top*/
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color:#FBFCFD ;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  nav ul{
+    text-align: left;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color:black; 
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: 3s;
+  }
+  
+  li:hover{
+    background-color:rgb(233, 233, 233);
+    border-radius: 10px;
+  }
+  
+  nav a{
+    text-decoration: none;
+  }
+  
+
+/* title */ 
+header{
+    color:#C0FFC0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    background-color:#F5F5F5;
+    padding: 100px;
+}
+/* background */
+body{
+    background-image: url("/css/beforewebsite.jpg");
+    background-color: #FBFCFD;
+    font-family: 'Raleway', sans-serif;
+}
+/* paragraphs*/
+
+div{
+  padding: 0 0 0 600px;
+  margin: 10px 50px;
+  font-size: large;
+  text-align: right;    
+}
+
+p{
+    padding: 75px;
+    background-color:transparent;
+}
+/* scrollbar*/
+*::-webkit-scrollbar{
+    background-color:transparent;
+}
+*::-webkit-scrollbar-button{
+    background-color: transparent;
+}
+*::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:#DEDEDE;
+}
+*::-webkit-scrollbar-thumb:hover{
+    border-radius: 10px;
+    background-color:#646464 ;
+}
+/* look at the youtube vidoe for other media*/
+
+h1,h2,h3,h4.h5,h6 {
+    color: black; 
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: black; 
+    font-family: 'Raleway', sans-serif;
+}
+
+/* button to to top*/
+
+#top {transform: rotate(270deg);
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    color:#646465;
+  }
+
+#top:hover {color:rgb(49, 49, 99);}
+
+/* footer */
+
+footer{
+  background-color:#FBFCFD ;
+  text-align: center;
+  padding: 10px; 
+}
+
+footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color:#FBFCFD ;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+
+li{
+  display: inline-block;
+  padding: 10px;
+  color:black; 
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  transition: 3s;
+}
+
+li a{
+  text-decoration: none;
+}
+
+img{
+  height: 33.6px;
+  width: 94px;
+  bottom: 0;
+  vertical-align: middle;
+}

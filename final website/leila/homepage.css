@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+}
+
+
+h1{text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    font-size: xx-large;
+}
+
+.links {text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.links a{font-size:18px;}
+
+.header a:hover {color:rgb(41, 41, 104);
+border-radius: 10px;}
+
+main{margin-top:7pc;}
+
+h2{font-size:20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    margin-left:400px;
+    margin-right:400px;
+    text-align:center;
+    vertical-align:middle;}
+
+body{background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat:no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+    /* link at the top*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 15px;
+    overflow: hidden;
+    background-color:#FBFCFD ;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    }
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 15px;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: 3s;
+    }
+
+li:hover{
+    background-color:rgb(228, 229, 255);
+    border-radius: 10px;
+    }
+
+nav a{
+    text-decoration: none;
+    }
+
+
+
+    /* scrollbar*/
+::-webkit-scrollbar{background-color:transparent;}
+
+::-webkit-scrollbar-button{background-color: transparent;}
+
+::-webkit-scrollbar-thumb{border-radius: 10px;
+    background-color:transparent;}
+
+::-webkit-scrollbar-thumb:hover{border-radius: 10px;
+    background-color:transparent;}
+
+
+/* footer */
+
+footer{
+    background-color:transparent ;
+    text-align: center;
+    padding: 10px; 
+  }
+
+footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color:transparent ;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+  }
+ 
+  li{
+    display: inline-block;
+    padding: 10px;
+    color:black; 
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: 3s;
+  }
+  
+  li a{
+    text-decoration: none;
+  }
+
+  a{text-decoration:none;
+    padding:10px;
+    color:black;}
+
+img{
+    height: 33.6px;
+    width: 94px;
+    bottom: 0;
+    vertical-align: middle;
+}
